@@ -18,11 +18,11 @@ export const Footer = () => {
             © 2025 All Rights Reserved by{" "}
             <a
             className="hover:text-accent-color duration-300 transition"
-            href="https://renjith.online"
+            href="https://justindavis.info"
             target="_blank"
             rel="noopener noreferrer"
             >
-            Renjith K Ravindran
+            Justin Davis
             </a>
             .
             | {" "}

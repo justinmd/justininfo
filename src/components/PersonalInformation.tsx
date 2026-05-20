@@ -5,7 +5,7 @@ export function PersonalInformation() {
         <div className="p-7 rounded-2xl mt-7 bg-[#F3F6F6] dark:bg-[#1D1D1D]">
 
             <div className="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] py-2.5">
-                <a href="mailto:renjith.wky@gmail.com" aria-label="Send email to renjith.wky@gmail.com" className="cursor-pointer">
+                <a href="mailto:justin.davis1982@gmail.com" aria-label="Send email to justin.davis1982@gmail.com" className="cursor-pointer">
                     <span aria-hidden="true" className="flex-shrink-0 socialbtn bg-white dark:bg-black text-[#6AB5B9] shadow-md">
                         <FaEnvelopeOpenText />
                     </span>
@@ -15,16 +15,16 @@ export function PersonalInformation() {
                     <p className="dark:text-white break-all">
                         <a
                             className="hover:text-accent-color duration-300 transition text-[14px] lg:text-[16px]"
-                            href="mailto:renjith.wky@gmail.com"
+                            href="mailto:justin.davis1982@gmail.com"
                         >
-                            renjith.wky@gmail.com
+                            justin.davis1982@gmail.com
                         </a>
                     </p>
                 </div>
             </div>
 
             <div className="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] py-2.5">
-                <a href="tel:+13322012312" aria-label="Call +1 332-201-2312" className="cursor-pointer">
+                <a href="tel:+14692261675" aria-label="Call (469) 226-1675" className="cursor-pointer">
                     <span aria-hidden="true" className="flex-shrink-0 socialbtn bg-white dark:bg-black text-accent-color shadow-md">
                         <FaPhone />
                     </span>
@@ -34,9 +34,9 @@ export function PersonalInformation() {
                     <p className="dark:text-white break-all">
                         <a
                             className="hover:text-accent-color duration-300 transition text-[14px] lg:text-[16px]"
-                            href="tel:+13322012312"
+                            href="tel:+14692261675"
                         >
-                            +1 332-201-2312
+                            (469) 226-1675
                         </a>
                     </p>
                 </div>

@@ -50,7 +50,7 @@ export default async function handler(req, res) {
         // Create default admin user
         admin = new Admin({
           username: 'admin',
-          email: 'jobs.renjith@gmail.com',
+          email: 'justin.davis1982@gmail.com',
           password: 'admin123',
           role: 'super_admin',
           isActive: true

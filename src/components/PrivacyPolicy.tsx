@@ -39,7 +39,7 @@ export function PrivacyPolicy() {
                         <br />
 
                         <strong>Contact Me</strong><br />
-                        If you have any questions or concerns about this privacy policy, please contact me at jobs.renjith@gmail.com.
+                        If you have any questions or concerns about this privacy policy, please contact me at justin.davis1982@gmail.com.
                         <br />
 
                         Thank you for visiting my personal website.

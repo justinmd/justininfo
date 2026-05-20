@@ -1,8 +1,8 @@
 import { Helmet } from "react-helmet-async";
 
-const SITE_URL = "https://renjith.online";
+const SITE_URL = "https://justindavis.info";
 const DEFAULT_IMAGE = `${SITE_URL}/og-image.jpg`;
-const SITE_NAME = "Renjith Kathalikkattil Ravindran";
+const SITE_NAME = "Justin Davis";
 
 export type PageTitleProps = {
     title: string
@@ -13,7 +13,7 @@ export type PageTitleProps = {
 
 export const PageTitle = ({
     title,
-    description = "Renjith Kathalikkattil Ravindran (Renjith K Ravindran) — Senior Software Engineer III and Principal UI Architect with 18+ years of experience in React, Next.js, Angular, and TypeScript. IEEE Senior Member. Fremont, CA.",
+    description = "Justin Davis — Principal Engineer and UI Architect with 17+ years of experience in React, Angular, TypeScript, and full-stack development. IEEE Senior Member. Fremont, CA.",
     path = "/",
     image = DEFAULT_IMAGE,
 }: PageTitleProps) => {

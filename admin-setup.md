@@ -51,12 +51,12 @@ JWT_SECRET = your-super-secret-jwt-key-change-this-in-production
    ```
 3. **Default credentials**:
    - Username: `admin`
-   - Email: `jobs.renjith@gmail.com`
+   - Email: `justin.davis1982@gmail.com`
    - Password: `admin123`
 
 ### **Step 4: Access Admin Dashboard**
 
-1. **Go to**: `http://renjith.online/admin`
+1. **Go to**: `https://justindavis.info/admin`
 2. **Login** with admin credentials
 3. **Access dashboard** at `/admin/dashboard`
 

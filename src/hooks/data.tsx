@@ -8,11 +8,11 @@ import { RiContactsBookLine } from "react-icons/ri"
 import { MdOutlineMenuBook, MdOutlineBusinessCenter } from "react-icons/md"
 import { AiOutlineFilePdf } from "react-icons/ai"
 
-import avatarIdea from '../assets/about/renjith-profile.jpeg'
-import avatarCoding from '../assets/about/renjith-profile.jpeg'
-import avatarFist from '../assets/about/renjith-profile.jpeg'
-import avatarSuccess from '../assets/about/renjith-profile.jpeg'
-import avatarGreatness from '../assets/about/renjith-profile.jpeg'
+import avatarIdea from '../assets/about/justin-profile.jpeg'
+import avatarCoding from '../assets/about/justin-profile.jpeg'
+import avatarFist from '../assets/about/justin-profile.jpeg'
+import avatarSuccess from '../assets/about/justin-profile.jpeg'
+import avatarGreatness from '../assets/about/justin-profile.jpeg'
 
 export type DataReturnType = ReturnType<typeof data>
 
@@ -134,7 +134,7 @@ export const data = () => {
             title: "Front End Development Certification",
             place: "freeCodeCamp",
             color: "#EEF5FA",
-            link: "https://www.freecodecamp.org/certification/renjith-kr/legacy-front-end"
+            link: "#"
         },
         {
             id: 3,
@@ -197,15 +197,15 @@ export const data = () => {
         {
             id: 1,
             title: "Phone",
-            item1: "+1 332-201-2312",
-            item2: "+1 332-201-2312",
+            item1: "(469) 226-1675",
+            item2: "(469) 226-1675",
             bg: "#FCF4FF"
         },
         {
             id: 2,
             title: "Email",
-            item1: "renjith.wky@gmail.com",
-            item2: "renjith.wky@gmail.com",
+            item1: "justin.davis1982@gmail.com",
+            item2: "justin.davis1982@gmail.com",
             bg: "#FCF4FF",
             bgDark: "accent-color"
         },

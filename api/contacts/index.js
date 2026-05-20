@@ -93,7 +93,7 @@ export default async function handler(req, res) {
           if (process.env.RESEND_API_KEY) {
             const { data, error } = await resend.emails.send({
               from: 'Portfolio Contact Form <onboarding@resend.dev>',
-              to: ['jobs.renjith@gmail.com'],
+              to: ['justin.davis1982@gmail.com'],
               subject: `New Contact Form Submission from ${name}`,
               html: `
                 <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
