@@ -1,12 +1,12 @@
 import { AppleConceptDesign, BrokerAutoPage, CgNetflixClone } from "../assets/projects"
-import { FaReact, FaPython } from "react-icons/fa";
+import { FaPython } from "react-icons/fa";
 import { SiTypescript, SiNextdotjs, SiAngular, SiNodedotjs, SiGooglecloud } from "react-icons/si";
 
 export type ProjectsDataReturnType = ReturnType<typeof projectsData>
 
 export function projectsData() {
     const techStack = {
-        react: { id: 1, Icon: FaReact, tooltip: "React", animation: "animate-spin-slow", color: "#5ed3f2" },
+        react: { id: 1, Icon: SiAngular, tooltip: "Angular", animation: null, color: "#dd0031" },
         typescript: { id: 3, Icon: SiTypescript, tooltip: "TypeScript", animation: null, color: "#3074bf" },
         nextjs: { id: 13, Icon: SiNextdotjs, tooltip: "Next.js", animation: null, color: "#000" },
         angular: { id: 8, Icon: SiAngular, tooltip: "Angular", animation: null, color: "#dd0031" },
