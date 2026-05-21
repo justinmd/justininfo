@@ -157,4 +157,49 @@ export const publicationsData = (): Publication[] => [
         link: "https://dzone.com",
         type: 'article'
     },
+    {
+        id: 18,
+        title: "Advancing Software and Systems Architecture: A Framework for Scalable and Secure Digital Platforms",
+        authors: "RK Ravindran",
+        venue: "SoftwareX (ScienceDirect)",
+        year: 2025,
+        link: "https://www.sciencedirect.com/science/article/pii/S2666659625000381",
+        type: 'journal'
+    },
+    {
+        id: 19,
+        title: "AI-Driven Morning Briefing: Personalized Intelligence Summarization Using Multi-Agent LLM Architectures",
+        authors: "RK Ravindran",
+        venue: "European Journal of Computer Science and Information Technology, 13(4), 97–695",
+        year: 2025,
+        link: "https://eajournals.org/ejcsit/wp-content/uploads/sites/21/2025/07/AI-Driven-Morning-Briefing.pdf",
+        type: 'journal'
+    },
+    {
+        id: 20,
+        title: "Machine Learning-Powered Personalization Engine for E-Commerce",
+        authors: "RK Ravindran",
+        venue: "SARC Journal of Engineering and Computer Sciences",
+        year: 2025,
+        link: "https://doi.org/10.5281/zenodo.15766853",
+        type: 'journal'
+    },
+    {
+        id: 21,
+        title: "Multi-Tenant OpenID Connect Integration for Secure and Scalable Authentication",
+        authors: "RK Ravindran",
+        venue: "SARC Journal of Multidisciplinary Development",
+        year: 2025,
+        link: "https://doi.org/10.5281/zenodo.15766896",
+        type: 'journal'
+    },
+    {
+        id: 22,
+        title: "In-App Browsers in Mobile Applications: Security, Privacy, and User Experience Implications",
+        authors: "Justin Davis",
+        venue: "DZone",
+        year: 2025,
+        link: "https://dzone.com/articles/in-app-browsers-in-mobile-apps",
+        type: 'article'
+    },
 ]

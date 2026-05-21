@@ -18,7 +18,7 @@ export const Resume = () => {
     <main className="relative">
       <PageTitle
         title="Resume"
-        description="Download or view the resume of Renjith Kathalikkattil Ravindran — Senior Software Engineer III and Principal UI Architect. 18+ years experience in React, Next.js, Angular, TypeScript, front-end architecture, and enterprise digital health platforms."
+        description="Download or view the resume of Justin Davis — Principal Engineer and UI Architect. 17+ years experience in React, Next.js, Angular, TypeScript, front-end architecture, and enterprise digital health platforms."
         path="/resume"
       />
 
@@ -71,7 +71,7 @@ export const Resume = () => {
                   <div className="hidden md:block w-full rounded-xl overflow-hidden border-2 border-[#EEF5FA] dark:border-[#212425]" data-aos="fade-up">
                     <iframe
                       src={ResumeDoc}
-                      title="Renjith K Ravindran Resume"
+                      title="Justin Davis Resume"
                       className="w-full"
                       style={{ height: '900px' }}
                     />

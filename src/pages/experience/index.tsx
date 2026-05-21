@@ -16,7 +16,7 @@ export const Experience = () => {
     <main className="relative">
       <PageTitle
         title="Experience"
-        description="Work experience of Renjith Kathalikkattil Ravindran — Senior Software Engineer III at Castlight Health, Front-End Architect at Google (via HCL), Lead Developer at Target (via Sapient). Skills: React, Next.js, Angular, TypeScript, Node.js, Python, GraphQL, AWS, GCP, Micro-frontends, Design Systems, WCAG Accessibility."
+        description="Work experience of Justin Davis — Principal Engineer at Castlight Health, UI Architect at Solgenie Technologies and Amazecodes Solutions, Lead Interactive Specialist at Target Corporation. Skills: React, Next.js, Angular, TypeScript, Node.js, Python, GraphQL, AWS, GCP, Micro-frontends, Design Systems, WCAG Accessibility."
         path="/experience"
       />
 

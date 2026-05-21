@@ -26,6 +26,9 @@ export const skillsData = () => {
         "Front-End Architecture",
         "Performance Optimization",
         "Component-Driven Development",
+        "Java Spring Boot",
+        "Authentication & Security Architecture",
+        "Digital Transformation Strategy",
     ]
 
     const familiarSkills = [
@@ -41,6 +44,8 @@ export const skillsData = () => {
         "Web Components",
         "PWA",
         "i18n / RTL",
+        "Android / iOS / Ionic",
+        "Jenkins",
     ]
 
     const tools = [
@@ -54,6 +59,7 @@ export const skillsData = () => {
         "BrowserStack",
         "Nx / Turborepo",
         "Google Analytics 4",
+        "GitLab",
     ]
 
     return {

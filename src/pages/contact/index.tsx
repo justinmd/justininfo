@@ -26,7 +26,7 @@ export const Contact = () => {
         <main className="relative">
             <PageTitle
               title="Contact"
-              description="Get in touch with Renjith Kathalikkattil Ravindran — Senior Software Engineer and Front-End Architect based in Fremont, California. Available for senior engineering roles, consulting, collaborations, and speaking opportunities."
+              description="Get in touch with Justin Davis — Principal Engineer and UI Architect based in Fremont, California. Available for senior engineering roles, consulting, collaborations, and speaking opportunities."
               path="/contact"
             />
             {/* End pagetitle */}

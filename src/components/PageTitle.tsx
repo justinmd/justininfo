@@ -13,7 +13,7 @@ export type PageTitleProps = {
 
 export const PageTitle = ({
     title,
-    description = "Justin Davis — Principal Engineer and UI Architect with 17+ years of experience in React, Angular, TypeScript, and full-stack development. IEEE Senior Member. Fremont, CA.",
+    description = "Justin Davis — Principal Engineer with 17+ years of experience in React, Angular, TypeScript, micro-frontends, and full-stack development. IEEE Senior Member. Fremont, CA.",
     path = "/",
     image = DEFAULT_IMAGE,
 }: PageTitleProps) => {

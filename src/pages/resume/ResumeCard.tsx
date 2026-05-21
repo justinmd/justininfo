@@ -56,7 +56,7 @@ export const EducationSection = () => {
                     </span>
                     <h3 className="text-xl dark:text-white"> {item.title} </h3>
                     <p className="dark:text-[#b7b7b7]">{item.place}</p>
-                    {item.link && (
+                    {'link' in item && typeof item.link === 'string' && item.link && (
                         <a
                             target="_blank"
                             rel="noreferrer"

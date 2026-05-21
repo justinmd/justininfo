@@ -7,16 +7,16 @@ const AboutMeParagraph = () => {
   return (
     <div className="text-gray-lite dark:text-color-910 leading-7 space-y-4">
       <p>
-        Visionary front-end architect and senior technology leader with <strong className="dark:text-white">18+ years of experience</strong> engineering mission-critical digital platforms at global scale. Currently serving as <strong className="dark:text-white">Senior Software Engineer III & Principal UI Architect</strong> at Castlight Health, where I lead front-end engineering for enterprise digital-health platforms serving millions of employer-sponsored users.
+        Innovative and results-driven <strong className="dark:text-white">Principal Engineer and UI Architect</strong> with over <strong className="dark:text-white">17+ years of experience</strong> delivering scalable, user-centric digital solutions across healthcare, finance, retail, and media sectors. Proven expertise in full-stack development, modern frontend frameworks, authentication systems, and microservices architecture.
       </p>
       <p>
-        My career has been defined by delivering transformative systems at organizations including <strong className="dark:text-white">Google, Target, and Castlight Health</strong> — platforms that collectively serve hundreds of millions of users and drive billions in commercial revenue. I spearheaded <strong className="dark:text-white">Curelight</strong>, a vaccine-finder platform integrated with CDC Vaccines.gov that reached <strong className="dark:text-white">100M+ users</strong> since 2021, directly supporting the U.S. government's COVID-19 pandemic response.
+        Currently serving as <strong className="dark:text-white">Principal Engineer</strong> at Castlight Health / apree health, where I provide architectural leadership across digital healthcare platforms. I served as Principal Engineer for <strong className="dark:text-white">PRISM</strong>, a next-generation multi-agent conversational AI platform built on Gemini 2.5, LangGraph, and GCP. I led engineering for <strong className="dark:text-white">Project Curelight / Vaccine Finder</strong>, a nationally deployed platform supporting real-time vaccine inventory reporting to the CDC — playing a critical role in the U.S. COVID-19 response.
       </p>
       <p>
-        At Google, I headed an 8-member engineering team across Google Maps, Google My Business, Stadia, Chromecast, and gTech Ads — serving as a <strong className="dark:text-white">Certified Google JavaScript Code Reviewer</strong>. At Target, I led front-end engineering for the <strong className="dark:text-white">$1.8B Everest Redesign</strong> — the largest digital re-platforming in Target's history.
+        Previously, as <strong className="dark:text-white">UI Architect at Solgenie Technologies</strong>, I led the SAGE portfolio management system for BNY Mellon and the NFL Sunday Ticket web modernization for DIRECTV. At <strong className="dark:text-white">Target Corporation</strong>, I led UI engineering for the Guest Profile Recommendation Engine and built a custom image zoom plugin that reduced server calls by 90%+. I've also led projects for Deluxe Corporation, TE Connectivity, and Capgemini.
       </p>
       <p>
-        A published researcher with <strong className="dark:text-white">18+ peer-reviewed publications</strong>, invited judge at 8 international IEEE conferences, and <strong className="dark:text-white">IEEE Senior Member</strong> (top ~10% globally). IETE Fellow, Sigma Xi Associate Member, and NSPE Member.
+        A published researcher with <strong className="dark:text-white">18+ peer-reviewed publications</strong> in AI, cybersecurity, healthcare technology, and software architecture. <strong className="dark:text-white">Senior Member, IEEE</strong> — Fellow of IETE, NSPE, BCS, and IOASD. Full Member of Sigma Xi. Recipient of the Stevie Award, Titan Innovation Award (Gold), Noble Award (Gold), and Global Recognition Award.
       </p>
     </div>
   )
@@ -32,7 +32,7 @@ export const About = () => {
     <section>
       <PageTitle
         title="About"
-        description="About Renjith Kathalikkattil Ravindran — 18+ years of front-end leadership at Castlight Health, Google, and Target. Architected Curelight national vaccine-finder (100M+ users). Built Google Maps Follow button. Led Target.com $1.8B Everest Redesign. IEEE Senior Member with 18+ publications and 50+ peer reviews."
+        description="About Justin Davis — Principal Engineer and UI Architect with 17+ years of experience. Architected Curelight national vaccine-finder for CDC (100M+ users). Led PRISM multi-agent conversational AI platform. IEEE Senior Member, IETE Fellow. 18+ publications."
         path="/about"
       />
       {/* End pagetitle */}

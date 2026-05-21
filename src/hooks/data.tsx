@@ -128,67 +128,79 @@ export const data = () => {
             place: "Government Engineering College Sreekrishnapuram | University of Calicut, Kerala, India",
             color: "#EEF5FA"
         },
-        {
-            id: 2,
-            date: "2016 – 2017",
-            title: "Front End Development Certification",
-            place: "freeCodeCamp",
-            color: "#EEF5FA",
-            link: "#"
-        },
-        {
-            id: 3,
-            date: "2022 – 2023",
-            title: "AI in Healthcare Specialization (5 Courses)",
-            place: "Stanford University / Coursera",
-            color: "#EEF5FA"
-        },
       ]
 
       const experienceArray = [
         {
             id: 1,
-            date: "Apr 2020 – Present",
-            title: "Senior Software Engineer III — Front-End Architect",
-            place: "Castlight Health, Inc.",
+            date: "Sep 2019 – Present",
+            title: "Principal Engineer",
+            place: "Castlight Health / apree health",
             location: "San Francisco Bay Area, CA",
-            description: "Lead front-end architecture for enterprise digital-health platforms. Architected Curelight — a national vaccine-finder integrated with CDC Vaccines.gov — reaching 100M+ users since 2021. Built secure identity, scheduling, and personalization systems improving reliability by 45%+.",
+            description: "Architectural leadership across healthcare navigation, public health, and AI-driven platforms. Designed multi-tenant OIDC authentication framework. Served as Principal Engineer for PRISM — multi-agent conversational AI on Gemini 2.5 and LangGraph. Led Curelight/Vaccine Finder national platform with CDC integration. Delivered HIPAA-compliant Working Well pandemic response platform.",
             color: "#EEF5FA"
         },
         {
             id: 2,
-            date: "Jul 2014 – Apr 2020",
-            title: "Technical Architect → System Architect",
-            place: "Google (Vendor through HCL Technologies Ltd.)",
-            location: "Mountain View, CA & Hyderabad, India",
-            description: "Headed 8-member front-end team across Google My Business, Google Maps, Stadia, Chromecast, and gTech Ads. Built the Google Maps 'Follow' button and social-commerce layer. Served as Certified Google JavaScript Code Reviewer. Awards: HCL MVP (2017), HCL Innovation (2016), Google Best Team Player (2015).",
+            date: "Sep 2017 – Jul 2019",
+            title: "UI Architect",
+            place: "Solgenie Technologies",
+            location: "",
+            description: "Spearheaded digital transformation for global clients. Led SAGE portfolio management system for BNY Mellon — Angular-based platform unifying legacy systems for real-time 401k/retirement fund management. Architected NFL Sunday Ticket web modernization for DIRECTV — migrated Flash/Flex to Angular 5, HTML5/CSS with video DRM, authentication, and 4K streaming support.",
             color: "#EEF5FA"
         },
         {
             id: 3,
-            date: "Nov 2010 – Jun 2014",
-            title: "Senior Interactive Developer L1",
-            place: "Target (Vendor through Publicis Sapient Consulting Pvt. Ltd.)",
-            location: "Bangalore, India",
-            description: "Led front-end engineering for Target's $1.8B Everest Redesign — migrating Target.com from Amazon-hosted infrastructure. Primary implementer of cart, checkout, and guest account modules serving millions of shoppers. Awards: Sapient Core-Value Award x3, Target Great Team Card.",
+            date: "Aug 2016 – Sep 2017",
+            title: "UI Architect | Technical Director",
+            place: "Amazecodes Solutions",
+            location: "",
+            description: "Led development of comprehensive product suite for Deluxe Corporation including end-to-end Product Detail Page (PDP) with REST API integration, scalable email marketing solution, and custom API services for image processing. Managed cross-functional teams, Agile ceremonies, and full-stack development.",
             color: "#EEF5FA"
         },
         {
             id: 4,
-            date: "Jun 2009 – Sep 2010",
-            title: "UI Lead / Web Developer",
-            place: "Ashan Consulting Pvt. Ltd.",
-            location: "Chennai, India",
-            description: "Led a team delivering consumer and social-community platforms: GroupDeal, Isocial, Discuz, Channel, Rayzz, and Volume.",
+            date: "Aug 2014 – Aug 2016",
+            title: "Lead Interactive Specialist",
+            place: "Target Corporation",
+            location: "",
+            description: "Led UI engineering for Guest Profile Recommendation Engine — personalized product recommendations across Target's digital platforms. Developed reusable components using HTML5, CSS3, JavaScript, jQuery, Backbone.js. Created custom jQuery image zoom plugin replacing Adobe Scene7, reducing server/API calls by 90%+. Drove omnichannel integration between digital and physical stores.",
             color: "#EEF5FA"
         },
         {
             id: 5,
-            date: "Jun 2007 – May 2009",
-            title: "Web Developer",
-            place: "VirtualMaze Softsys Pvt. Ltd.",
-            location: "Chennai, India",
-            description: "Developed and maintained company web properties end-to-end using PHP, MySQL, HTML, CSS, and JavaScript.",
+            date: "Mar 2013 – Aug 2014",
+            title: "Senior Consultant",
+            place: "Capgemini",
+            location: "",
+            description: "Consulted for Target Corporation (transitioned to full-time role), contributing to front-end engineering initiatives including the Guest Profile Recommendation Engine and Product Image Zoom Optimization projects.",
+            color: "#EEF5FA"
+        },
+        {
+            id: 6,
+            date: "Aug 2011 – Mar 2013",
+            title: "Senior Software Engineer",
+            place: "TE Connectivity",
+            location: "",
+            description: "Led UI development for Prism FlexWave DAS platform — a distributed antenna system for large venues. Built dynamic configuration interfaces using PHP, JavaScript, jQuery, AJAX, XML, and JSON. Developed Selenium RC automation frameworks improving testing reliability and coverage.",
+            color: "#EEF5FA"
+        },
+        {
+            id: 7,
+            date: "Mar 2009 – Jul 2011",
+            title: "Systems Analyst",
+            place: "Cosmonet Solutions",
+            location: "",
+            description: "Systems analysis and software development delivering technology solutions for enterprise clients.",
+            color: "#EEF5FA"
+        },
+        {
+            id: 8,
+            date: "Jan 2008 – Jan 2009",
+            title: "PHP Developer",
+            place: "SkeinSoft",
+            location: "",
+            description: "Web development using PHP, MySQL, HTML, CSS, and JavaScript.",
             color: "#EEF5FA"
         },
       ]

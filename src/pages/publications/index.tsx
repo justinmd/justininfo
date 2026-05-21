@@ -50,7 +50,7 @@ export const Publications = () => {
         <main className="relative">
             <PageTitle
               title="Publications"
-              description="Publications by Renjith Kathalikkattil Ravindran — 18+ peer-reviewed journal articles and conference papers in AI, healthcare technology, machine learning, and human-computer interaction. IEEE Senior Member. Published in IEEE, Springer, and DZone. Google Scholar profile available."
+              description="Publications by Justin Davis — 18+ peer-reviewed journal articles and conference papers in AI, healthcare technology, machine learning, and human-computer interaction. IEEE Senior Member, IETE Fellow. Published in IEEE, Elsevier, and DZone. Google Scholar profile available."
               path="/publications"
             />
 
@@ -87,16 +87,16 @@ export const Publications = () => {
 
                                     {/* Stats */}
                                     <div className="grid grid-cols-4 gap-3 mt-8" data-aos="fade-up">
-                                        <StatCard value="18+" label="Publications" />
+                                        <StatCard value="22+" label="Publications" />
                                         <StatCard value={`${totalCitations}`} label="Citations" />
                                         <StatCard value="1" label="h-index" />
-                                        <StatCard value="53+" label="Peer Reviews" />
+                                        <StatCard value="60+" label="Peer Reviews" />
                                     </div>
 
                                     {/* Scholar link */}
                                     <div className="mt-4 flex items-center gap-2" data-aos="fade-up">
                                         <a
-                                            href="https://scholar.google.com/citations?user=_FTuFE0AAAAJ&hl=en"
+                                            href="https://scholar.google.com/citations?user=zHSpASEAAAAJ&hl=en"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="flex items-center gap-2 text-sm text-accent-color hover:underline"
