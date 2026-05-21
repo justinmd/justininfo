@@ -185,7 +185,7 @@ export const Publications = () => {
                                                     <div className="flex-1 min-w-0">
                                                         <div className="flex items-center gap-2 flex-wrap mb-2">
                                                             <TypeBadge type={pub.type} />
-                                                            <span className="text-xs text-gray-400">{pub.year}</span>
+                                                            <span className="text-xs text-gray-400 dark:text-gray-500">{pub.year}</span>
                                                             {pub.citations !== undefined && pub.citations > 0 && (
                                                                 <span className="inline-flex items-center gap-1 text-xs text-amber-600 dark:text-amber-400 font-medium">
                                                                     <BsPeopleFill className="h-3 w-3" />
@@ -201,7 +201,7 @@ export const Publications = () => {
                                                             ) : pub.title}
                                                         </h3>
                                                         <p className="text-xs text-gray-500 dark:text-gray-400 mb-1">{pub.authors}</p>
-                                                        <p className="text-xs text-gray-400 dark:text-gray-500 italic flex items-center gap-1">
+                                                        <p className="text-xs text-gray-400 dark:text-gray-400 italic flex items-center gap-1">
                                                             {pub.type === 'article'
                                                                 ? <AiOutlineLink className="h-3 w-3 flex-shrink-0" />
                                                                 : pub.type === 'journal'

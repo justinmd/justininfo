@@ -1,15 +1,7 @@
-import logoWebp from '../assets/logo/justin.webp'
-import logoPng from '../assets/logo/justin.png'
-
 export const Logo = () => (
-    <picture>
-        <source srcSet={logoWebp} type="image/webp" />
-        <img
-            src={logoPng}
-            alt="Justin Davis"
-            width={96}
-            height={96}
-            className="h-[26px] lg:h-[32px] w-auto rounded-md hover:scale-[105%] transition-all duration-50 ease-in-out"
-        />
-    </picture>
+  <div className="flex items-center gap-0 group">
+    <div className="bg-accent-color rounded-lg flex items-center justify-center w-[30px] h-[30px] lg:w-[36px] lg:h-[36px] transition-all duration-200 group-hover:scale-105">
+      <span className="text-white font-bold font-robotoSlab text-sm lg:text-base leading-none">J</span>
+    </div>
+  </div>
 )

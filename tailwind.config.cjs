@@ -53,7 +53,7 @@ module.exports = {
         "shadow-light": 'rgba(255, 255, 255, 0.15)',
         "shadow-dark": 'rgba(0, 0, 0, 0.15)',
         transparent: 'transparent',
-        gray: "#F3F6F6",
+        "gray-custom": "#F3F6F6",
         "gray-lite": "#44566C",
         oriange: "#E93B81",
         green: "#6AB5B9",

@@ -21,7 +21,7 @@ const ImpactBanner = () => {
           <div className="text-accent-color flex justify-center mb-2">{icon}</div>
           <p className="text-3xl font-bold dark:text-white text-gray-800">{value}</p>
           <p className="text-sm font-semibold dark:text-white text-gray-700 mt-1">{label}</p>
-          <p className="text-xs text-gray-400 dark:text-gray-500 mt-0.5">{sub}</p>
+          <p className="text-xs text-gray-400 dark:text-[#b7b7b7] mt-0.5">{sub}</p>
         </div>
       ))}
     </div>
@@ -386,13 +386,13 @@ const ExternalValidation = () => {
                   rel="noopener noreferrer"
                   className="flex items-start gap-3 p-3.5 rounded-xl border border-[#EEF5FA] dark:border-[#212425] hover:border-accent-color dark:hover:border-accent-color transition-colors group"
                 >
-                  <AiOutlineLink className="h-4 w-4 text-gray-400 group-hover:text-accent-color flex-shrink-0 mt-0.5 transition-colors" />
+                  <AiOutlineLink className="h-4 w-4 text-gray-400 dark:text-gray-500 group-hover:text-accent-color flex-shrink-0 mt-0.5 transition-colors" />
                   <div className="flex-1 min-w-0">
                     <div className="flex flex-wrap items-center gap-2 mb-0.5">
                       <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${typeColors[src.type] ?? typeColors['Industry']}`}>
                         {src.type}
                       </span>
-                      <span className="text-xs text-gray-400 dark:text-gray-500">{src.publisher}</span>
+                      <span className="text-xs text-gray-400 dark:text-gray-400">{src.publisher}</span>
                     </div>
                     <p className="text-sm font-medium dark:text-white text-gray-700 group-hover:text-accent-color transition-colors leading-snug">
                       {src.title}
