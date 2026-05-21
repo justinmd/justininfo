@@ -62,16 +62,7 @@ export function Projects() {
                         data-aos="fade-up"
                         className="p-6 rounded-2xl border-2 border-[#EEF5FA] dark:border-[#212425] hover:border-accent-color dark:hover:border-accent-color transition-colors"
                       >
-                        <div className="flex flex-col lg:flex-row gap-6">
-                          {project.pageLink && (
-                            <a href={project.pageLink} target="_blank" rel="noopener noreferrer" className="flex-shrink-0">
-                              <img
-                                src={project.image}
-                                alt={`${project.title} — project screenshot`}
-                                className="w-full lg:w-[280px] h-auto lg:h-[160px] object-contain rounded-xl border border-[#EEF5FA] dark:border-[#212425]"
-                              />
-                            </a>
-                          )}
+                        <div>
                           <div className="flex-1 min-w-0">
                             <h3 className="text-xl font-semibold dark:text-white mb-2">{project.title}</h3>
                             <p className="text-sm text-gray-lite dark:text-[#b7b7b7] leading-relaxed mb-4">{project.description}</p>
