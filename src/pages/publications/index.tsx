@@ -90,7 +90,7 @@ export const Publications = () => {
                                         <StatCard value="7" label="Publications" />
                                         <StatCard value={`${totalCitations}`} label="Citations" />
                                         <StatCard value="1" label="h-index" />
-                                        <StatCard value="60+" label="Peer Reviews" />
+                                        <StatCard value="70+" label="Peer Reviews" />
                                     </div>
 
                                     {/* Scholar link */}

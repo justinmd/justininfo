@@ -7,16 +7,19 @@ const AboutMeParagraph = () => {
   return (
     <div className="text-gray-lite dark:text-color-910 leading-7 space-y-4">
       <p>
-        Innovative and results-driven <strong className="dark:text-white">Principal Engineer and UI Architect</strong> with over <strong className="dark:text-white">17+ years of experience</strong> delivering scalable, user-centric digital solutions across healthcare, finance, retail, and media sectors. Proven expertise in full-stack development, modern frontend frameworks, authentication systems, and microservices architecture.
+        Internationally recognized <strong className="dark:text-white">Principal Engineer, UI Architect, published researcher, and technology judge</strong> with <strong className="dark:text-white">17+ years of experience</strong> delivering scalable, mission-critical digital platforms across healthcare, finance, retail, telecommunications, and media. My work spans AI-driven healthcare navigation, national public health infrastructure, secure authentication systems, microfrontend architecture, and high-performance enterprise platforms.
       </p>
       <p>
-        Currently serving as <strong className="dark:text-white">Principal Engineer</strong> at Castlight Health / apree health, where I provide architectural leadership across digital healthcare platforms. I served as Principal Engineer for <strong className="dark:text-white">PRISM</strong>, a next-generation multi-agent conversational AI platform built on Gemini 2.5, LangGraph, and GCP. I led engineering for <strong className="dark:text-white">Project Curelight / Vaccine Finder</strong>, a nationally deployed platform supporting real-time vaccine inventory reporting to the CDC — playing a critical role in the U.S. COVID-19 response.
+        I currently serve as <strong className="dark:text-white">Principal Engineer</strong> at Castlight Health / apree health, where I provide architectural leadership for digital healthcare platforms supporting millions of users. I served as Principal Engineer for <strong className="dark:text-white">PRISM</strong>, a next-generation multi-agent conversational AI platform built on Gemini 2.5, LangGraph, and GCP, and led engineering for <strong className="dark:text-white">Project Curelight / Vaccine Finder</strong>, a nationally deployed vaccine inventory reporting platform supporting the CDC during the U.S. COVID-19 response.
       </p>
       <p>
-        Previously, as <strong className="dark:text-white">UI Architect at Solgenie Technologies</strong>, I led the SAGE portfolio management system for BNY Mellon and the NFL Sunday Ticket web modernization for DIRECTV. At <strong className="dark:text-white">Target Corporation</strong>, I led UI engineering for the Guest Profile Recommendation Engine and built a custom image zoom plugin that reduced server calls by 90%+. I've also led projects for Deluxe Corporation, TE Connectivity, and Capgemini.
+        My professional impact extends beyond employer-based contributions into recognized service to the broader scientific and engineering community. I have authored peer-reviewed publications in AI, cybersecurity, healthcare technology, and software architecture, and have peer-reviewed approximately <strong className="dark:text-white">70 research papers across 15 international conferences</strong>. I have also served as a judge for the United Hack V6 Hackathon, Globee Awards, and IEEE Senior Member application evaluations. These invited judging and peer-review roles demonstrate that my expertise is relied upon to evaluate the work, innovation, and professional advancement of others in the field.
       </p>
       <p>
-        A published researcher with <strong className="dark:text-white">18+ peer-reviewed publications</strong> in AI, cybersecurity, healthcare technology, and software architecture. <strong className="dark:text-white">Senior Member, IEEE</strong> — Fellow of IETE, NSPE, BCS, and IOASD. Full Member of Sigma Xi. Recipient of the Stevie Award, Titan Innovation Award (Gold), Noble Award (Gold), and Global Recognition Award.
+        Previously, as <strong className="dark:text-white">UI Architect at Solgenie Technologies</strong>, I led the SAGE portfolio management system for BNY Mellon and modernized DIRECTV's NFL Sunday Ticket platform. At <strong className="dark:text-white">Target Corporation</strong>, I led UI engineering for the Guest Profile Recommendation Engine and developed a custom image zoom framework that reduced server calls by over 90%. I have also delivered enterprise technology solutions for Deluxe Corporation, TE Connectivity, Capgemini, and other major organizations.
+      </p>
+      <p>
+        I am a <strong className="dark:text-white">Senior Member of IEEE</strong> and a Fellow of IETE, NSPE, BCS, IOASD, and NIPES, as well as a Full Member of Sigma Xi. My recognitions include the Stevie Award, Titan Innovation Award Gold, Noble Award Gold, Global Recognition Award, Target Rockstar/Rocker Awards, and Castlight Impact Award. Collectively, my leadership roles, scholarly publications, peer-review service, judging appointments, fellow-grade memberships, and award recognitions demonstrate sustained national and international recognition for contributions to software engineering, AI systems, cybersecurity, and digital healthcare innovation.
       </p>
     </div>
   )
@@ -32,7 +35,7 @@ export const About = () => {
     <section>
       <PageTitle
         title="About"
-        description="About Justin Davis — Principal Engineer and UI Architect with 17+ years of experience. Architected Curelight national vaccine-finder for CDC (100M+ users). Led PRISM multi-agent conversational AI platform. IEEE Senior Member, IETE Fellow. 18+ publications."
+        description="About Justin Davis — Internationally recognized Principal Engineer and UI Architect with 17+ years of experience. Architected Curelight for CDC. Led PRISM conversational AI. IEEE Senior Member, IETE Fellow. Published researcher and technology judge."
         path="/about"
       />
       {/* End pagetitle */}
