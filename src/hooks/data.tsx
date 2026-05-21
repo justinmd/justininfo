@@ -28,8 +28,8 @@ export const data = () => {
         const themeValue = localStorage?.getItem("theme");
 
         if (!themeValue) {
-            setCheck(true)
-            localStorage.setItem("theme", "light") //Default Theme
+            setCheck(false)
+            localStorage.setItem("theme", "dark")
         } else {
             themeValue === "dark" && setCheck(false)
             themeValue === "light" && setCheck(true)
