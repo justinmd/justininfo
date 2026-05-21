@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Footer, PageTitle, DesktopNav, MobileNav, MenuButton, ThemeToggleButton, SocialLinks, Logo } from '../../components'
 import { HomeCard } from '../home/HomeCard'
 import { useData } from '../../hooks'
-import ResumeDoc from '../../assets/resume/Renjith_Ravindran.pdf'
+import ResumeDoc from '../../assets/resume/Justin-Davis - CV.pdf'
 import downloadIcon from '../../assets/icons/download.png'
 import { AiOutlineFilePdf, AiOutlineDownload } from 'react-icons/ai'
 
@@ -55,11 +55,11 @@ export const Resume = () => {
                   <div className="flex items-center gap-4 mt-8 mb-6" data-aos="fade-up">
                     <div className="flex items-center gap-2 text-accent-color">
                       <AiOutlineFilePdf className="h-6 w-6" />
-                      <span className="text-sm font-medium dark:text-white text-gray-700">Renjith_Ravindran.pdf</span>
+                      <span className="text-sm font-medium dark:text-white text-gray-700">Justin-Davis - CV.pdf</span>
                     </div>
                     <a
                       href={ResumeDoc}
-                      download="Renjith_Ravindran.pdf"
+                      download="Justin-Davis - CV.pdf"
                       className="ml-auto flex items-center gap-2 bg-gradient-to-r from-accent-color to-variant-bg text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-gradient-to-l transition-all duration-200"
                     >
                       <AiOutlineDownload className="h-4 w-4" />
@@ -96,7 +96,7 @@ export const Resume = () => {
                         </a>
                         <a
                           href={ResumeDoc}
-                          download="Renjith_Ravindran.pdf"
+                          download="Justin-Davis - CV.pdf"
                           className="flex items-center justify-center gap-2 bg-gradient-to-r from-accent-color to-variant-bg text-white px-6 py-3 rounded-full text-sm font-medium hover:bg-gradient-to-l transition-all duration-200"
                         >
                           <AiOutlineDownload className="h-4 w-4" />

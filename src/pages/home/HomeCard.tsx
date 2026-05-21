@@ -1,6 +1,6 @@
 import { PersonalInformation, Greeting, Avatar, TechStack } from "../../components"
 import { DownloadButton, GoToButton } from "../../components/buttons";
-import Resume from '../../assets/resume/Renjith_Ravindran.pdf'
+import Resume from '../../assets/resume/Justin-Davis - CV.pdf'
 import { RiContactsBookLine } from "react-icons/ri";
 
 export const HomeCard = () => {
