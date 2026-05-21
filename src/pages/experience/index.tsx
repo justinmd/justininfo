@@ -15,8 +15,8 @@ export const Experience = () => {
   return (
     <main className="relative">
       <PageTitle
-        title="Experience"
-        description="Work experience of Justin Davis — Principal Engineer at Castlight Health, UI Architect at Solgenie Technologies and Amazecodes Solutions, Lead Interactive Specialist at Target Corporation. Skills: React, Next.js, Angular, TypeScript, Node.js, Python, GraphQL, AWS, GCP, Micro-frontends, Design Systems, WCAG Accessibility."
+        title="Work Experience — Principal Engineer & UI Architect"
+        description="Work experience of Justin Davis — Principal Engineer at Castlight Health (PRISM AI, Curelight vaccine platform), UI Architect at Solgenie Technologies (BNY Mellon SAGE, DIRECTV NFL Sunday Ticket), Lead Interactive Specialist at Target Corporation. Skills: React, Next.js, Angular, TypeScript, GCP, AWS."
         path="/experience"
       />
 
@@ -65,7 +65,7 @@ export const Experience = () => {
                     <h4 className="text-5xl dark:text-white font-medium mb-6">Advance Skills</h4>
                     <div className="flex gap-y-5 gap-x-2.5 flex-wrap">
                       {advanceSkills.map((skill, idx) => (
-                        <button className="resume-btn" key={idx}>{skill}</button>
+                        <span className="resume-btn" key={idx}>{skill}</span>
                       ))}
                     </div>
                   </div>
@@ -75,7 +75,7 @@ export const Experience = () => {
                       <h4 className="text-5xl dark:text-white font-medium mb-6">Familiar Skills</h4>
                       <div className="flex gap-y-5 gap-x-2.5 flex-wrap">
                         {familiarSkills.map((skill, idx) => (
-                          <button className="resume-btn" key={idx}>{skill}</button>
+                          <span className="resume-btn" key={idx}>{skill}</span>
                         ))}
                       </div>
                     </div>
@@ -84,7 +84,7 @@ export const Experience = () => {
                       <h4 className="text-5xl dark:text-white font-medium my-6">Tools</h4>
                       <div className="flex gap-y-5 gap-x-2.5 flex-wrap">
                         {tools.map((tool, idx) => (
-                          <button className="resume-btn" key={idx}>{tool}</button>
+                          <span className="resume-btn" key={idx}>{tool}</span>
                         ))}
                       </div>
                     </div>

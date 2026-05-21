@@ -50,7 +50,11 @@ export function Projects() {
 
     return (
         <section id="projects" className="bg-white relative lg:rounded-2xl dark:bg-[#111111] h-[58rem] lg:h-auto lg:mb-20 lg:px-[2rem] lg:overflow-hidden sm:overflow-visible">
-            <PageTitle title={"Projects"} />
+            <PageTitle
+              title="Projects — AI, Healthcare, Finance & Retail Platforms"
+              description="Projects by Justin Davis — PRISM multi-agent conversational AI platform, Curelight national vaccine finder for CDC (100M+ users), SAGE portfolio management for BNY Mellon, Target.com recommendation engine, NFL Sunday Ticket web modernization."
+              path="/projects"
+            />
             <div className="relative w-full flex items-center justify-center">
                 <div className="lg:hidden absolute z-10 top-[10rem] w-[200px]">
                     <Avatar absolute={false} width="200px" />
@@ -80,6 +84,20 @@ export function Projects() {
             </div>
             <div className='hidden lg:block'>
                 <Footer />
+            </div>
+
+            {/* Static crawlable project listing for SEO */}
+            <div className="sr-only" aria-hidden="false">
+                <h3>All Projects</h3>
+                <ul>
+                    {projectsArray.map(project => (
+                        <li key={project.id}>
+                            <strong>{project.title}</strong>
+                            <p>{project.description}</p>
+                            {project.pageLink && <a href={project.pageLink}>View Project</a>}
+                        </li>
+                    ))}
+                </ul>
             </div>
         </section>
     )

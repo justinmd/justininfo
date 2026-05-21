@@ -9,12 +9,12 @@ import { ContextProvider } from "./context"
 
 // Route-based code splitting — each page loads only when navigated to
 const Home        = lazy(() => import('./pages/home').then(m => ({ default: m.Home })))
-const About       = lazy(() => import('./pages/about').then(m => ({ default: m.About })))
 const Contact     = lazy(() => import('./pages/contact').then(m => ({ default: m.Contact })))
 const Resume      = lazy(() => import('./pages/resume').then(m => ({ default: m.Resume })))
 const Experience  = lazy(() => import('./pages/experience').then(m => ({ default: m.Experience })))
 const Projects    = lazy(() => import('./pages/projects').then(m => ({ default: m.Projects })))
 const Publications = lazy(() => import('./pages/publications').then(m => ({ default: m.Publications })))
+const NotFound    = lazy(() => import('./pages/not-found').then(m => ({ default: m.NotFound })))
 
 const AdminLogin     = lazy(() => import('./pages/admin').then(m => ({ default: m.AdminLogin })))
 const AdminDashboard = lazy(() => import('./pages/admin').then(m => ({ default: m.AdminDashboard })))
@@ -47,7 +47,6 @@ function App() {
           <Suspense fallback={<div className="min-h-screen bg-white dark:bg-black" />}>
             <Routes>
               <Route path='/'                  element={<Home />} />
-              <Route path='about'              element={<About />} />
               <Route path='projects'           element={<Projects />} />
               <Route path='resume'             element={<Resume />} />
               <Route path='experience'         element={<Experience />} />
@@ -56,7 +55,7 @@ function App() {
               <Route path='admin'              element={<AdminLogin />} />
               <Route path='admin/dashboard'    element={<AdminDashboard />} />
               <Route path='admin/settings'     element={<AdminSettings />} />
-              <Route path='*'                  element={<Home />} />
+              <Route path='*'                  element={<NotFound />} />
             </Routes>
           </Suspense>
         </Router>

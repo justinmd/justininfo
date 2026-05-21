@@ -17,8 +17,8 @@ export const Resume = () => {
   return (
     <main className="relative">
       <PageTitle
-        title="Resume"
-        description="Download or view the resume of Justin Davis — Principal Engineer and UI Architect. 17+ years experience in React, Next.js, Angular, TypeScript, front-end architecture, and enterprise digital health platforms."
+        title="Resume — Principal Engineer & UI Architect"
+        description="Download or view the resume of Justin Davis — Principal Engineer and UI Architect. 17+ years experience in React, Next.js, Angular, TypeScript, micro-frontends, Conversational AI, and enterprise digital health platforms. IEEE Senior Member."
         path="/resume"
       />
 

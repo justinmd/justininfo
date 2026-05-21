@@ -34,8 +34,8 @@ export const Home = () => {
   return (
     <main className={`relative`}>
       <PageTitle
-        title="Home"
-        description="Justin Davis — Principal Engineer and UI Architect with 17+ years of experience building enterprise-scale digital platforms. Expert in React, Next.js, Angular, TypeScript, micro-frontends, and design systems. Castlight Health, Target. IEEE Senior Member. Fremont, CA."
+        title="Principal Engineer & UI Architect"
+        description="Justin Davis — Principal Engineer and UI Architect with 17+ years of experience building enterprise-scale digital platforms across healthcare, finance, retail, and media. Architected Curelight for CDC (100M+ users). Led PRISM conversational AI. IEEE Senior Member, BCS Fellow."
         path="/"
       />
       {/* End pagetitle */}

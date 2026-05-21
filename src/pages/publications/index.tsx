@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 import { Footer, PageTitle, DesktopNav, MobileNav, MenuButton, ThemeToggleButton, SocialLinks, Logo } from '../../components'
 import { HomeCard } from '../home/HomeCard'
 import { useData } from '../../hooks'
@@ -39,6 +40,15 @@ export const Publications = () => {
 
     const filtered = filter === 'all' ? allPubs : allPubs.filter(p => p.type === filter)
     const totalCitations = allPubs.reduce((sum, p) => sum + (p.citations || 0), 0)
+    const hIndex = (() => {
+        const sorted = allPubs.map(p => p.citations || 0).sort((a, b) => b - a)
+        let h = 0
+        for (let i = 0; i < sorted.length; i++) {
+            if (sorted[i] >= i + 1) h = i + 1
+            else break
+        }
+        return h
+    })()
     const counts = {
         all: allPubs.length,
         journal: allPubs.filter(p => p.type === 'journal').length,
@@ -46,13 +56,42 @@ export const Publications = () => {
         article: allPubs.filter(p => p.type === 'article').length,
     }
 
+    const publicationSchema = allPubs.map(pub => ({
+        "@type": "ScholarlyArticle",
+        "name": pub.title,
+        "author": pub.authors.split(',').map(a => ({ "@type": "Person", "name": a.trim() })),
+        "datePublished": pub.year.toString(),
+        "description": `${pub.title} — published in ${pub.venue} (${pub.year})`,
+        ...(pub.link ? { "url": pub.link, "sameAs": pub.link } : {}),
+        ...(pub.citations ? { "citation": pub.link || undefined } : {}),
+        "isPartOf": {
+            "@type": "PublicationIssue",
+            "name": pub.venue
+        }
+    }))
+
     return (
         <main className="relative">
             <PageTitle
-              title="Publications"
-              description="Publications by Justin Davis — 18+ peer-reviewed journal articles and conference papers in AI, healthcare technology, machine learning, and human-computer interaction. IEEE Senior Member, IETE Fellow. Published in IEEE, Elsevier, and DZone. Google Scholar profile available."
+              title="Publications — Research Papers in AI, Healthcare & Cybersecurity"
+              description="Publications by Justin Davis — peer-reviewed journal articles and conference papers in AI, cybersecurity, healthcare technology, OIDC authentication, micro-frontend architecture, and software engineering. IEEE Senior Member, IETE Fellow. Google Scholar profile available."
               path="/publications"
             />
+            <Helmet>
+              <script type="application/ld+json">
+                {JSON.stringify({
+                  "@context": "https://schema.org",
+                  "@type": "ItemList",
+                  "name": "Publications by Justin Davis",
+                  "description": "Peer-reviewed journal articles and conference papers in AI, cybersecurity, healthcare technology, and software engineering.",
+                  "itemListElement": publicationSchema.map((pub, i) => ({
+                    "@type": "ListItem",
+                    "position": i + 1,
+                    "item": pub
+                  }))
+                })}
+              </script>
+            </Helmet>
 
             <section className="z-[100] bg-white dark:bg-black min-h-screen bg-no-repeat bg-center bg-cover bg-fixed w-full">
                 <div className="container z-[1000] w-full bg-primary-bg-light dark:bg-primary-bg-dark lg:bg-transparent lg:dark:bg-transparent flex justify-between py-5 lg:px-0 lg:pt-[35px]">
@@ -89,7 +128,7 @@ export const Publications = () => {
                                     <div className="grid grid-cols-4 gap-3 mt-8" data-aos="fade-up">
                                         <StatCard value="7" label="Publications" />
                                         <StatCard value={`${totalCitations}`} label="Citations" />
-                                        <StatCard value="1" label="h-index" />
+                                        <StatCard value={`${hIndex}`} label="h-index" />
                                         <StatCard value="70+" label="Peer Reviews" />
                                     </div>
 

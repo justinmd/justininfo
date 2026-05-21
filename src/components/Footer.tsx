@@ -19,8 +19,6 @@ export const Footer = () => {
             <a
             className="hover:text-accent-color duration-300 transition"
             href="https://justindavis.info"
-            target="_blank"
-            rel="noopener noreferrer"
             >
             Justin Davis
             </a>
@@ -29,6 +27,9 @@ export const Footer = () => {
             <a
                 className="text-gray-lite dark:text-gray hover:text-accent-color dark:hover:text-accent-color transition-all duration-300 ease-in-out cursor-pointer"
                 onClick={openPrivacyPolicy}
+                role="button"
+                tabIndex={0}
+                onKeyDown={(e) => e.key === 'Enter' && openPrivacyPolicy(e as any)}
                 >
                 Privacy Policy
             </a>

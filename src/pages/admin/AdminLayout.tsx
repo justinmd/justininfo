@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import {
   AiOutlineLogout,
   AiOutlineMail,
@@ -33,7 +34,11 @@ export const AdminLayout = ({ children, adminUser }: AdminLayoutProps) => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col">
+    <>
+      <Helmet>
+        <meta name="robots" content="noindex, nofollow" />
+      </Helmet>
+      <div className="min-h-screen bg-gray-100 flex flex-col">
       {/* Top Navigation Bar */}
       <header className="bg-gray-900 text-white shadow-lg z-30 sticky top-0">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -143,5 +148,6 @@ export const AdminLayout = ({ children, adminUser }: AdminLayoutProps) => {
         {children}
       </main>
     </div>
+    </>
   );
 };

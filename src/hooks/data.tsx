@@ -107,6 +107,12 @@ export const data = () => {
           icon: <AiOutlineFilePdf />,
         },
         {
+          id: "05",
+          name: "Projects",
+          link: "/projects",
+          icon: <CgNotes />,
+        },
+        {
           id: "06",
           name: "Publications",
           link: "/publications",

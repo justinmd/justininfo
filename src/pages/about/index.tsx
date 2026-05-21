@@ -1,6 +1,6 @@
-import { Footer, PageTitle } from '../../components'
-import { HomeCard } from '../home/HomeCard'
-import { useData } from '../../hooks'
+import { Footer } from '../../components'
+import { HomeCard } from '../home/HomeCard';
+import { useData } from '../../hooks';
 import { useEffect } from 'react'
 import { AiOutlineLink } from 'react-icons/ai'
 import { FaAward, FaUsers, FaCertificate, FaNewspaper, FaHospital, FaGlobe } from 'react-icons/fa'
@@ -420,12 +420,6 @@ export const About = () => {
 
   return (
     <section>
-      <PageTitle
-        title="About"
-        description="About Justin Davis — Internationally recognized Principal Engineer and UI Architect with 17+ years of experience. Architected Curelight for CDC (100M+ users). Led PRISM conversational AI. IEEE Senior Member, BCS Fellow. Published researcher and technology judge."
-        path="/about"
-      />
-
       <div className="lg:rounded-2xl bg-white dark:bg-[#111111] overflow-hidden mb-2">
         <div>
           <div className="pt-2 pb-4 px-3 md:px-5 lg:px-6">
