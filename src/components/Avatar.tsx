@@ -1,5 +1,4 @@
 import { useData } from '../hooks'
-import profileWebp from '../assets/about/justin-profile.webp'
 import profileJpeg from '../assets/about/justin-profile.jpeg'
 
 type AvatarProps = {
@@ -9,11 +8,9 @@ type AvatarProps = {
 
 export const Avatar = ({ absolute }: AvatarProps) => {
     const { currentImgSelection } = useData();
-    const isDefault = currentImgSelection === profileJpeg
 
     return (
         <picture>
-            {isDefault && <source srcSet={profileWebp} type="image/webp" />}
             <img
                 src={currentImgSelection}
                 width={400}
