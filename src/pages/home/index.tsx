@@ -41,7 +41,7 @@ export const Home = () => {
       {/* End pagetitle */}
 
       <section className="z-[100] bg-white dark:bg-black min-h-screen bg-no-repeat bg-center bg-cover bg-fixed w-full">
-        <div className={`container z-[1000] w-full bg-primary-bg-light dark:bg-primary-bg-dark lg:bg-transparent lg:dark:bg-transparent flex justify-between py-5 lg:px-0 lg:pt-[35px]`}>
+        <div className={`container z-[1000] w-full bg-primary-bg-light dark:bg-primary-bg-dark lg:bg-transparent lg:dark:bg-transparent flex justify-between py-2 lg:px-0 lg:pt-[10px]`}>
           <div className={`w-full z-[1000] flex justify-between items-center px-4`}>
             {/* website logo */}
             <Link to="/">
@@ -57,11 +57,11 @@ export const Home = () => {
           </div>
         </div>
         <MobileNav menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        <div className="container grid grid-cols-12 md:gap-10 justify-between lg:mt-[110px] ">
-          <div className="col-span-12 lg:col-span-4 hidden lg:block h-auto sticky">
+        <div className="container grid grid-cols-12 md:gap-10 justify-between">
+          <div className="col-span-12 lg:col-span-4 hidden lg:block h-auto sticky lg:mt-[90px]">
             <HomeCard />
           </div>
-          <div className="col-span-12 lg:col-span-8  ">
+          <div className="col-span-12 lg:col-span-8">
             {/* header  */}
             <DesktopNav />
 
