@@ -177,18 +177,18 @@ export const publicationsData = (): Publication[] => [
     },
     {
         id: 20,
-        title: "Machine Learning-Powered Personalization Engine for E-Commerce",
-        authors: "RK Ravindran",
-        venue: "SARC Journal of Engineering and Computer Sciences",
+        title: "Machine Learning-Powered Personalization Engine for E-Commerce: Integrating Customer Experience with Inventory Optimization",
+        authors: "J Davis",
+        venue: "SARC Journal of Engineering and Computer Sciences, 4(6), 258-273",
         year: 2025,
         link: "https://doi.org/10.5281/zenodo.15766853",
         type: 'journal'
     },
     {
         id: 21,
-        title: "Multi-Tenant OpenID Connect Integration for Secure and Scalable Authentication",
-        authors: "RK Ravindran",
-        venue: "SARC Journal of Multidisciplinary Development",
+        title: "Multi-Tenant OpenID Connect Integration: Architectural Strategies for Secure and Scalable Authentication",
+        authors: "J Davis",
+        venue: "SARC Journal of Multidisciplinary Development, 5, 55-60",
         year: 2025,
         link: "https://doi.org/10.5281/zenodo.15766896",
         type: 'journal'
@@ -201,5 +201,30 @@ export const publicationsData = (): Publication[] => [
         year: 2025,
         link: "https://dzone.com/articles/in-app-browsers-in-mobile-apps",
         type: 'article'
+    },
+    {
+        id: 23,
+        title: "Accessibility in Mobile and Web-Engineering for Compliance and Inclusion",
+        authors: "J Davis",
+        venue: "Journal of Computer Science and Technology Studies, 7(6), 973-983",
+        year: 2025,
+        type: 'journal'
+    },
+    {
+        id: 24,
+        title: "Where Microfrontends with Module Federation Are Required: Advantages, Disadvantages, and the Risk of Overengineering",
+        authors: "J Davis",
+        venue: "International Journal of Science and Research (IJSR), 14(6), 1499-1500",
+        year: 2025,
+        link: "https://www.ijsr.net/getabstract.php?paperid=SR25621033541",
+        type: 'journal'
+    },
+    {
+        id: 25,
+        title: "Modern Authentication Methods: Enhancing Security and User Experience",
+        authors: "J Davis",
+        venue: "Journal of Information Systems Engineering and Management, 10(60s)",
+        year: 2025,
+        type: 'journal'
     },
 ]

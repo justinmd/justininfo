@@ -87,7 +87,7 @@ export const Publications = () => {
 
                                     {/* Stats */}
                                     <div className="grid grid-cols-4 gap-3 mt-8" data-aos="fade-up">
-                                        <StatCard value="22+" label="Publications" />
+                                        <StatCard value="25" label="Publications" />
                                         <StatCard value={`${totalCitations}`} label="Citations" />
                                         <StatCard value="1" label="h-index" />
                                         <StatCard value="60+" label="Peer Reviews" />
