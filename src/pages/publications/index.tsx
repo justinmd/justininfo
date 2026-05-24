@@ -78,6 +78,8 @@ export const Publications = () => {
               path="/publications"
             />
             <Helmet>
+              <meta property="article:author" content="https://justindavis.info" />
+              <meta property="article:published_time" content="2025" />
               <script type="application/ld+json">
                 {JSON.stringify({
                   "@context": "https://schema.org",
@@ -212,7 +214,7 @@ export const Publications = () => {
                                                         </p>
                                                     </div>
                                                     {pub.link && (
-                                                        <a href={pub.link} target="_blank" rel="noopener noreferrer" className="flex-shrink-0 text-gray-400 hover:text-accent-color transition-colors mt-1">
+                                                        <a href={pub.link} target="_blank" rel="noopener noreferrer" aria-label={`Open ${pub.title}`} className="flex-shrink-0 text-gray-400 hover:text-accent-color transition-colors mt-1">
                                                             <AiOutlineLink className="h-4 w-4" />
                                                         </a>
                                                     )}

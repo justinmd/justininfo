@@ -15,6 +15,7 @@ const Experience  = lazy(() => import('./pages/experience').then(m => ({ default
 const Projects    = lazy(() => import('./pages/projects').then(m => ({ default: m.Projects })))
 const Publications = lazy(() => import('./pages/publications').then(m => ({ default: m.Publications })))
 const NotFound    = lazy(() => import('./pages/not-found').then(m => ({ default: m.NotFound })))
+const Sitemap     = lazy(() => import('./pages/sitemap').then(m => ({ default: m.Sitemap })))
 
 const AdminLogin     = lazy(() => import('./pages/admin').then(m => ({ default: m.AdminLogin })))
 const AdminDashboard = lazy(() => import('./pages/admin').then(m => ({ default: m.AdminDashboard })))
@@ -52,6 +53,7 @@ function App() {
               <Route path='experience'         element={<Experience />} />
               <Route path='contact'            element={<Contact />} />
               <Route path='publications'       element={<Publications />} />
+              <Route path='sitemap'            element={<Sitemap />} />
               <Route path='admin'              element={<AdminLogin />} />
               <Route path='admin/dashboard'    element={<AdminDashboard />} />
               <Route path='admin/settings'     element={<AdminSettings />} />
