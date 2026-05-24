@@ -50,7 +50,7 @@ export const AdminLayout = ({ children, adminUser }: AdminLayoutProps) => {
               onClick={() => navigate('/admin/dashboard')}
             >
               <div className="h-8 w-8 rounded-full bg-blue-600 flex items-center justify-center font-bold text-sm">
-                RR
+                JD
               </div>
               <div>
                 <p className="text-sm font-bold leading-tight">Justin Davis</p>
